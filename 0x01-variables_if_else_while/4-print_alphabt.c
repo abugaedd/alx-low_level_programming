@@ -7,8 +7,15 @@
 */
 int main(void)
 {int i;
-for (97 >= i <= 100; 102 >= i <= 112; 114 >= i <= 122)
-putchar(i), i++;
+for (i = 97; i <= 122;)
+{
+if (i == 101 || i == 113)
+i++;
+else
+{putchar(i);
+i++;
+}
+}
 putchar('\n');
 return (0);
 }
