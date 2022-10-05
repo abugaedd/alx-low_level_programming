@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdlib.h>
 
 
@@ -12,6 +11,7 @@
 *
 * Return: pointer to the array, NULL if it fails
 */
+
 
 
 char *create_array(unsigned int size, char c)
